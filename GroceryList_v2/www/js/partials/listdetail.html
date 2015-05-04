@@ -1,0 +1,25 @@
+<ion-view>
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <div class="buttons">
+                <button class="button" ng-click="goBack()">Back</button>
+            </div>
+            <h1 class="title">Item details</h1>
+        </ion-header-bar>
+        <div class="list has-header">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Item name</span>
+                <input type="text" placeholder="Enter item name" ng-model="currentItem.name">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Item Description</span>
+                <input type="text" placeholder="Enter item details" ng-model="currentItem.description">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Item price</span>
+                <input type="text" placeholder="Enter item price" ng-model="currentItem.price">
+            </label>
+            <button class="smaller-btn button button-block button-positive" ng-click="saveItem()">Save</button>
+        </div>
+    </ion-pane>
+</ion-view>
