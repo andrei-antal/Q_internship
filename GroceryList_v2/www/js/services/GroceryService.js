@@ -42,8 +42,15 @@ angular.module('starter')
             groceryTypeList.push( new GroceryType(groceryId++,item.name,item.description, item.price));
         };
 
-        groceryService.removeGroceryType = function(){
-
+        groceryService.removeGroceryType = function(id){
+            for(var i=0;i<groceryTypeList.length;i++)
+            {
+                if(groceryTypeList[i].id == id)
+                {
+                    groceryTypeList.slice(i,1);
+                    return;
+                }
+            }
         };
 
         return groceryService;

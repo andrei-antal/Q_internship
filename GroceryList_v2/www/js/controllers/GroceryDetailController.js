@@ -22,4 +22,10 @@ angular.module('starter')
             }
         }
 
+        $scope.deleteItem = function()
+        {
+            GroceryService.removeGroceryType($scope.currentItem);
+            $state.go('typeList');
+        }
+
     }]);
