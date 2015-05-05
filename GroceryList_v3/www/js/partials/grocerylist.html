@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <div class="buttons">
+                <button class="button" ng-click="goBack()">Back</button>
+            </div>
+            <h1 class="title">Grocery types</h1>
+            <div class="buttons">
+                <button class="button" ng-click="newType()">Add type</button>
+            </div>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item ng-repeat="type in typeList" ng-click="addType(type)">
+                    {{type.name}}
+                    <ion-option-button class="button-positive" ng-click="editType(type)">Edit</ion-option-button>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-pane>
+</ion-view>

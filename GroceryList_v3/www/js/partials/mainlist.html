@@ -1,0 +1,29 @@
+<ion-view>
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">My Shopping list</h1>
+            <div class="buttons">
+                <button class="button" ng-click="goToItemTypeList()">Add item</button>
+            </div>
+        </ion-header-bar>
+        <ion-content overflow-scroll="true">
+            <ion-list>
+                <ion-item class=" item-divider" >
+                    My current shopping list ({{groceryList.length}} items)
+                </ion-item>
+                <ion-item class=" item-icon-right"
+                          ng-repeat="grocery in groceryList"
+                          >
+                    {{grocery.name}}
+                    <ion-option-button class="button-assertive" ng-click="deleteGroceryEntry($index)">
+                        Delete
+                    </ion-option-button>
+                    <span class="badge badge-assertive">{{grocery.count}}</span>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+        <ion-footer-bar>
+            Total price: {{getTotalCost()}}
+        </ion-footer-bar>
+    </ion-pane>
+</ion-view>

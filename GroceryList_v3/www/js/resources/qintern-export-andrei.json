@@ -1,0 +1,44 @@
+{
+  "-JbJnHBJMSrp0ypeh0Zu" : {
+    "description" : "Milk is a white liquid produced by the mammary glands of mammals.",
+    "id" : 0,
+    "name" : "Milk",
+    "price" : 12.34
+  },
+  "-JbJnHBQYqhqJUxyQKcz" : {
+    "description" : "The tomato is the edible, often red fruit/berry of the nightshade.",
+    "id" : 1,
+    "name" : "Tomatoes",
+    "price" : 12.34
+  },
+  "-JbJnHBUyJLXAW3vouZ0" : {
+    "description" : "Breakfast cereal (or just cereal) is a food made from processed grains that is often eaten as the first meal of the day.",
+    "id" : 2,
+    "name" : "Cereal",
+    "price" : 12.34
+  },
+  "-JbJnHBVPR3r_gDJhIhj" : {
+    "description" : "A small bread with a firm browned crust and a soft interior.",
+    "id" : 3,
+    "name" : "Biscuits",
+    "price" : 12.34
+  },
+  "-JbJnHBXf4_McG4bh4HA" : {
+    "description" : "Bread is a staple food prepared from a dough of flour and water, usually by baking. ",
+    "id" : 4,
+    "name" : "Bread",
+    "price" : 12.34
+  },
+  "-JbJnHBYNGF8uxZpkCbe" : {
+    "description" : "Toothpaste is a paste or gel dentifrice used with a toothbrush as an accessory to clean and maintain the aesthetics and health of teeth.",
+    "id" : 5,
+    "name" : "Toothpaste",
+    "price" : 12.34
+  },
+  "-JbJnHBaBWoxD9Si2jVg" : {
+    "description" : "Juice is a liquid that is naturally contained in fruit and vegetables",
+    "id" : 6,
+    "name" : "Juice",
+    "price" : 34.45
+  }
+}
