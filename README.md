@@ -25,7 +25,7 @@
 2. Create an ionic blank project  
 
   ```bash
-  $ ionic start myAwesomeApp
+  $ ionic start myAwesomeApp blank
   ```
 3. Navigate to app folder  
 
